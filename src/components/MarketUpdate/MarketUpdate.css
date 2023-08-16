@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap");
+
+.market-container {
+  margin: 5rem;
+}
+
+.market-heading-text {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.market-head-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  border-radius: 8px 8px 0 0;
+  padding: 1rem 4rem 1rem 3rem;
+}
+
+.market-content-container {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.market-content {
+  background-color: #0f051d;
+  border-bottom: 1px solid #f3f2f4;
+  color: #f3f2f4;
+  display: grid;
+  font-size: 1.4rem;
+  font-weight: 500;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 2rem 2rem;
+}
+
+.market-image-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.market-content img {
+  max-width: 30%;
+  margin-right: 1rem;
+}
+
+.market-content:hover {
+  cursor: pointer;
+  background-color: #200840;
+}
+
+.market-head-content h3 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .market-container {
+    margin: 2rem;
+  }
+
+  .market-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .market-content img {
+    margin-right: 2rem;
+  }
+
+  .market-head-content p {
+    display: none;
+  }
+
+  .market-head-content h3 {
+    display: block;
+  }
+
+  .market-head-content {
+    display: flex;
+  }
+
+  .market-content p {
+    display: none;
+  }
+
+  .market-content-container {
+    overflow-y: auto;
+    max-height: 100dvh;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .market-container {
+    margin: 2rem;
+  }
+
+  .market-head-content {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  .market-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.market-coin-text-red {
+  color: red;
+}
+
+.market-coin-text-green {
+  color: green;
+}

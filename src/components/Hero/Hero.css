@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Palanquin+Dark:wght@600&family=Roboto&family=Wendy+One&display=swap");
+.hero-container {
+  width: 100%;
+  min-height: 60dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.hero-content-text {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Palanquin Dark";
+  line-height: 7rem;
+}
+
+.hero-content-text span,
+h1 {
+  background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+}
+
+.hero-coins-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-coin {
+  color: #fff;
+  margin: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-family: "Lato";
+}
+
+.hero-coin img {
+  max-width: 55%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.hero-coin-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+
+.hero-coin-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-coin-text-green {
+  color: green;
+}
+
+.hero-coin-text-red {
+  color: red;
+}
+
+@media screen and (max-width: 900px) {
+  .hero-content-text {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 5rem;
+  }
+
+  .hero-container {
+    margin: 7rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-container {
+    margin: 5rem 0;
+  }
+
+  .hero-content-text {
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-height: 3rem;
+  }
+}
+
+.hero-floating-image-container {
+  animation: floatAnimation 1.5s infinite alternate-reverse;
+  position: relative;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

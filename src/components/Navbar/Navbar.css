@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Wendy+One&display=swap");
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  color: #fff;
+  /* font-family: "Roboto"; */
+  font-family: "Wendy One";
+}
+
+.navbar-logo h3 {
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navbar-content a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-content a:hover {
+  background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+  transition: all 0.7s;
+}
+
+.navbar-discord-logo {
+  margin: 0 2rem;
+}
+
+.navbar-discord-logo:hover {
+  cursor: pointer;
+  color: #7289d9;
+  transition: all 0.7s;
+}
+
+.navbar-twitter-logo:hover {
+  cursor: pointer;
+  color: #00acee;
+  transition: all 0.7s;
+}
+
+.navbar-hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-hamburger-menu:hover {
+  color: lightgoldenrodyellow;
+}
+
+.mobile-hamburger-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60dvh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobile-hamburger-menu a {
+  margin: 1rem 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 800;
+}
+
+.mobile-hamburger-menu a:hover{
+    color: rebeccapurple;
+}
+
+.mobile-hamburger-menu-cross-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+.mobile-hamburger-menu-cross-btn:hover{
+    color: red;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar-logo h3 {
+    font-size: 1.5rem;
+  }
+  .navbar-content,
+  .navbar-discord-logo,
+  .navbar-twitter-logo {
+    display: none;
+  }
+  .navbar-hamburger-menu {
+    display: block;
+  }
+}
