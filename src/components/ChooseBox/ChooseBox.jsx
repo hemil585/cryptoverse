@@ -1,0 +1,16 @@
+import React from "react";
+import './ChooseBox.css'
+
+const ChooseBox = ({img,title,text}) => {
+  return (
+    <div className="choose-box">
+      <i className={img}></i>
+      <div className="choose-box__text">
+        <h4>{title}</h4>
+        <p>{text}</p>
+      </div>
+    </div>
+  );
+};
+
+export default ChooseBox;

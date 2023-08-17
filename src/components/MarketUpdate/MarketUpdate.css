@@ -4,6 +4,10 @@
   margin: 5rem;
 }
 
+.market-container a{
+  text-decoration: none;
+}
+
 .market-heading-text {
   font-family: "Ubuntu", sans-serif;
   color: white;
@@ -96,9 +100,8 @@
   }
 
   .market-content-container {
-    overflow-y: auto;
-    max-height: 100dvh;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: auto;
+    min-height: 100dvh;
   }
 }
 

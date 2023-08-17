@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap");
+
+.why-choose-us-container {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.why-choose-us-heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu";
+  margin-bottom: 5rem;
+}
+.why-choose-us-heading span {
+  display: flex;
+  font-size: 5rem;
+  background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  word-spacing: 15px;
+}
+
+.why-choose-us-heading span p {
+  color: white;
+  margin-right: 1rem;
+}
+
+.why-choose-us-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.why-choose-us-content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-choose-us-content-image img {
+  width: 80%;
+  height: 80dvh;
+  margin: 3rem 2rem;
+}
+
+.why-choose-us-content-one,
+.why-choose-us-content-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 530px) {
+  .why-choose-us-content-one,
+  .why-choose-us-content-two {
+    width: 100%;
+  }
+  .why-choose-us-heading span p,
+  .why-choose-us-heading span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .why-choose-us-content-image img {
+    width: 80%;
+    height: 50dvh;
+  }
+
+  .choose-box i {
+    font-size: 2rem;
+    height: 4rem;
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .choose-box i {
+    font-size: 1.8rem;
+    height: 4rem;
+    width: 6rem;
+  }
+
+  .why-choose-us-heading span p,
+  .why-choose-us-heading span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 0;
+  }
+}

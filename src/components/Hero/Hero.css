@@ -11,6 +11,10 @@
   margin-bottom: 10rem;
 }
 
+.hero-coins-slider a {
+  text-decoration: none;
+}
+
 .hero-content-text {
   font-size: 3rem;
   text-transform: uppercase;

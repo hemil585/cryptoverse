@@ -1,0 +1,32 @@
+.choose-box {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid hsla(0, 0%, 51%, 0.25);
+  border-radius: 2.4rem;
+  display: flex;
+  font-family: Noto Sans Georgian, sans-serif;
+  width: 70%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.choose-box i {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  height: 5rem;
+  width: 6rem;
+  color: white;
+}
+
+.choose-box__text {
+    color: whitesmoke;
+    width: 15rem;
+    margin-left: 40px;
+}
+
+.choose-box__text h4{
+    margin-bottom: 1rem;
+}

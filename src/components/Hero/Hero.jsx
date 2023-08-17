@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import { GridLoader, HashLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [data, setData] = useState([]);
@@ -58,6 +59,7 @@ const Hero = () => {
             />
           ) : null}
           {data.map((coin) => (
+            <Link to={`coin/${coin.id}`}>
             <div className="hero-coin" key={coin.id}>
               <div className="hero-floating-image-container">
                 <img src={coin.image} alt={coin.name} />
@@ -81,6 +83,7 @@ const Hero = () => {
                 </h3>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>

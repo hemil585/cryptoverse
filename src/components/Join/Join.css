@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap");
+.join-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+  font-family: "Ubuntu";
+}
+
+.join-container-text-one h1 {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.join-container-text-two h1 {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+}
+
+.join-container-text-three p {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: "Montserrat";
+}
+
+.join-container-join-button {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  border-radius: 10rem;
+  color: #f3f2f4;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 4rem;
+  transition: all 0.2s;
+  border: none;
+  margin-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.join-container-join-button:hover {
+  cursor: pointer;
+  filter: brightness(70%);
+}
+
+.join-container-floating-coin-image-one,
+.join-container-floating-coin-image-two {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  animation: floatingCoinAnimation 0.3s infinite alternate;
+}
+
+.join-container-floating-coin-image-one {
+  top: 3rem;
+  left: 2rem;
+}
+
+.join-container-floating-coin-image-two {
+  top: 3rem;
+  right: 2rem;
+}
+
+@keyframes floatingCoinAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .join-container {
+    margin: 5rem;
+  }
+
+  .join-container-text-one h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .join-container-text-two h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .join-container-text-three p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
+  .join-container-floating-coin-image-one,
+  .join-container-floating-coin-image-two {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .join-container-floating-coin-image-one {
+    top: 5rem;
+    left: 1rem;
+  }
+
+  .join-container-floating-coin-image-two {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .join-container-floating-coin-image-one,
+  .join-container-floating-coin-image-two {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .join-container-floating-coin-image-one {
+    top: 5rem;
+    left: 1rem;
+  }
+
+  .join-container-floating-coin-image-two {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .join-container {
+    margin: 3rem;
+  }
+
+  .join-container-text-one h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .join-container-text-two h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .join-container-text-three p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .join-container {
+    margin: 5rem 1rem;
+  }
+
+  .join-container-text-one h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .join-container-text-two h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .join-container-text-three p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .join-container-join-button {
+    font-size: .7rem;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+}
