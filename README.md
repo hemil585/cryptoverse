@@ -23,3 +23,7 @@
 <div align='center'>
 <img src='https://github.com/hemil585/cryptoverse/assets/117675167/9cbde983-3509-4273-a774-d98cd6a5566c'/>
 </div>
+
+## Design Inspiration
+
+The design of this project was inspired by the website [CoinDom](https://coindom-crypto-search.vercel.app/)
