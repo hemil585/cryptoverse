@@ -1,15 +1,9 @@
-<div align='center'><img style="width:16%" src='https://github.com/hemil585/cryptoverse/assets/117675167/e64eb3a9-e671-48f9-9bd9-35cb01ff3d67'/></div>
+<div align='center'><img style="width:16%" src='https://github.com/hemil585/cryptoverse/assets/117675167/769e7deb-eb54-4edf-baf7-98c2d7a23265'/></div>
 
 
 <br />
 
-👉 Live Demo: <a href='https://cryptoversehub.netlify.app/'>Coindom Demo</a>
-
-<h3>Build with:</h3>
-
-» React JS <br>
-» SCSS  <br>
-» Coingecko API <br>
+👉 Live Demo: <a href='https://cryptoversehub.netlify.app/'>Cryptoverse Demo</a>
 
 <br>
 
